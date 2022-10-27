@@ -1,0 +1,25 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="ExampleTests" parallel="classes">
+    <test name="My First Test">
+    <!--   <parameter name="username" value="admin"/>
+        <parameter name="password" value="password"/>-->
+       <!-- <groups>
+            <run>
+               <include name="HeaderTests" /
+               <include name="ButtonTests" />
+              <exclude name="HeaderTests" />
+            </run>
+        </groups>-->
+        <classes>
+         <!--   <class name="activities.Activity5" />
+            <class name="activities.Activity1"/>
+            <class name="activities.DemoOne"/>
+            <class name="activities.DemoTwo"/>
+            <class name="activities.Activity3"/>
+            <class name="activities.Activity6"/>
+            <class name="activities.Activity7"/>
+            <class name="activities.Activity9"/>-->
+            <class name="activities.Activity10"/>
+        </classes>
+    </test>
+</suite>
